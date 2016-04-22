@@ -1,0 +1,10 @@
+centre vcentre
+┌──────────┐                   ┌──────────┐
+│          │◀───1. Request──── │          │
+│   HTTP   │                   │   HTTP   │
+│  Server  │                   │  Client  │
+│          │────2. Response──▶ │          │
+└──────────┘                   └──────────┘
+
+* Every request can receive up to one response
+* The server can not send a response without a request

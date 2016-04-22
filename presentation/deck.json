@@ -1,0 +1,12 @@
+{
+  "header": {
+    "centre": "Web APIs"
+  },
+  "footer": {
+    "left": "Zeke Nierenberg",
+    "right": "\u03BB Fullstack Academy"
+  },
+  "fade": {
+    "delay": 0
+  }
+}

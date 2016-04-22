@@ -1,0 +1,7 @@
+centre vcentre
+
+% Responses have
+
+* A status code (404, 200, 500, etc)
+* Headers, metadata about the request
+* A body or payload (sometimes)

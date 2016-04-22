@@ -1,0 +1,8 @@
+centre vcentre
+
+% Requests have
+
+* A destination (https://somedomain.co/foobar)
+* A method (GET, POST, PUT, DELETE, PATCH).
+* Headers, metadata about the request
+* A body or payload (sometimes)

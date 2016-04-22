@@ -1,0 +1,19 @@
+centre vcentre
+
+% A fictional Twitter API
+% Creating a tweet
+% The response
+
+HTTP/1.1 201 Created
+Date: Sun, 18 Oct 2018 08:56:53 GMT
+ETag: "10000000565a5-2c-3e94b66c2e680"
+Content-Length: 44
+Connection: close
+Content-Type: application/json
+
+{
+  "id": 1232244242422,
+  "tweet": "omg lolz #yolo",
+  tags: ["yolo"],
+  user: 2342342423423
+}

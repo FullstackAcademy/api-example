@@ -1,0 +1,24 @@
+centre vcentre
+
+% The cycle
+
+┌──────────────────────────────────────────────────────────────┐
+│                            Client                            │
+└┬─────────────────────────────────────────────────────────────┘
+ │GET /docs/index.html HTTP/1.1   ▲                             
+ │Host: www.test101.com           │HTTP/1.1 200 OK              
+ │Accept: image/gif, image/jpeg   │Date: Sun, 18 Oct 2009...    
+ │Accept-Language: en-us          │Server: Apache/2.2.14 (Win32)
+ │Accept-Encoding: gzip, deflate  │Last-Modified: Sat, 20 Nov...
+ │Content-Length: 25kb            │ETag: "10000000565a5-2c-..." 
+ │User-Agent: Mozilla/4.0...      │Accept-Ranges: bytes         
+ │(blank line)                    │Content-Length: 44           
+ │                                │Connection: close            
+ │                                │Content-Type: text/html      
+ │                                │X-Pad: avoid browser bug     
+ │                                │                             
+ │                                │<html><body><h1>It           
+ ▼                                │works!</h1></body></html>    
+┌─────────────────────────────────┴────────────────────────────┐
+│                            Server                            │
+└──────────────────────────────────────────────────────────────┘

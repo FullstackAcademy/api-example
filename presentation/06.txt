@@ -1,0 +1,10 @@
+centre vcentre
+
+% REST is
+
+* Representational State Transfer
+* A mapping of HTTP methods to common application needs
+  * Create - POST
+  * Read - GET
+  * Update - PUT
+  * Delete - DELETE
