@@ -181,11 +181,11 @@ You should get some version number. If you don't, flag me down and I'll help you
 
 ### Setting up the Project
 
-I've set up a starting point for you on [github](...). To download it, you can click on the download link on github, or use `git clone`. Once you have the project on your hard drive, direct your shell to the project. Here's how I would do it:
+I've set up a starting point for you on in this repo. To download it, you can click on the download link on github, or use `git clone`. Once you have the project on your hard drive, direct your shell to the project. Here's how I would do it:
 
 ```bash
 $ git clone ...
-$ cd ./api-project
+$ cd ./api-example
 ```
 
 Then run `$ npm install`. NPM (Node Package Manager) will read the `package.json` file in the directory and install needed dependencies.
@@ -286,8 +286,8 @@ Now let's get the server saying something.
 
 ```js
 http.createServer(function(request, response) {
-  res.writeHead(200);
-  res.end('Hi guys!');
+  response.writeHead(200);
+  response.end('Hi guys!');
 }).listen(1337);
 ```
 
