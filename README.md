@@ -1,3 +1,4 @@
+# [Signup Link!](https://learn.fullstackacademy.com/signup?cohort=571a663dd5e33e030020cade)
 # Web APIs
 
 1. [Detailed Background](#detailed-background)
