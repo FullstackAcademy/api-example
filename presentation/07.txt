@@ -1,9 +1,9 @@
 centre vcentre
 
 % A fictional Twitter API
-% Creating a tweet
+% Creating a twit
 
-POST /api/tweets HTTP/1.1
+POST /api/twits HTTP/1.1
 Host: www.twitterdotcom.com
 Accept: application/json
 Accept-Language: en-us
@@ -12,5 +12,5 @@ Content-Length: 1kb
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
 {
-  "tweet":"omg lolz #yolo"
+  "twit":"omg lolz #yolo"
 }
