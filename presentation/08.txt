@@ -1,7 +1,7 @@
 centre vcentre
 
 % A fictional Twitter API
-% Creating a tweet
+% Creating a twit
 % The response
 
 HTTP/1.1 201 Created
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 {
   "id": 1232244242422,
-  "tweet": "omg lolz #yolo",
+  "twit": "omg lolz #yolo",
   tags: ["yolo"],
   user: 2342342423423
 }
